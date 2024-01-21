@@ -1,6 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup, L } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-// import HeatMap from "./HeatMap";
 
 const Map = () => {
   return (
@@ -17,7 +16,6 @@ const Map = () => {
       <Marker position={[40.8054, -74.0241]} draggable={true} animate={true}>
         <Popup>Hey ! I live here</Popup>
       </Marker>
-      <HeatMap />
     </MapContainer>
   );
 };
