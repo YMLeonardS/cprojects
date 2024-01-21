@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --green: #7AC043;
+  --orange: #EE3D37;
+  --blue: #09589E;
+  --grey: #7D7E82;
+
+
+  --background: white;
+  --foreground: #f0fafa;
+  --footer: #334155;
+}
+
+[data-theme='dark'] {
+  --background: #334155;
+  --foreground: #202e40;
+  --footer: #202e40;
+}
+
+body {
+  background: var(--background);
+  transition: background-color .3s ease-in-out;
+}
+
+
+
+
+.topbar {
+  @apply fixed z-10 top-0 bg-white bg-opacity-10;
+  box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.topbar::before {
+  @apply absolute bg-white bg-opacity-20 top-0 backdrop-blur-md;
+  content: '';
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.font-gradient {
+  @apply max-w-fit m-auto p-1 text-sm text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#0c4a6e]
+}
+
+.card {
+  @apply p-1 rounded-lg shadow-md
+}
