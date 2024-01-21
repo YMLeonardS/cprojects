@@ -76,7 +76,7 @@ const tkdn = () => {
       </div>
 
       
-      {/* <div className='flex gap-2 w-full'>
+      <div className='flex gap-2 w-full'>
         <div className='w-full card'>
           <h1 className='p-2 pb-4'>Rekapitulasi Berdasarkan Tahun Penerbitan Sertifikat</h1>
           <DoubleBar datas={data2} column={['tahun', 'total_sertifikat', 'total_produk']}/>
@@ -85,11 +85,11 @@ const tkdn = () => {
           <h1 className='p-2 pb-4'>Rekapitulasi Berdasarkan Kelompok Barang</h1>
           <HorizontalStackBar />
         </div>
-      </div> */}
+      </div>
 
-      {/* {data1.map((a, idx) => (
+      {data1.map((a, idx) => (
         <div key={idx}>{a.group_barang}</div>
-      ))} */}
+      ))}
 
       <div className='w-full h-[30rem] bg-red-700/10'>
         <h1>Map of Indonesia</h1>
