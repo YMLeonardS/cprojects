@@ -5,16 +5,16 @@ import 'leaflet/dist/leaflet.css';
 import IndonesiaData from '../public/indonesia-prov.json';
 
 const Map = () => {
-  const center = [-1.19, 120.82];
+  const center = [-2.10, 120.82];
   const zoom = 5;
 
   const getColor = (value) => {
     // Sesuaikan dengan skala warna berdasarkan data
-    return value > 1000 ? '#67000d' :
-      value > 500 ? '#a50f15' :
-      value > 200 ? '#cb181d' :
-      value > 100 ? '#ef3b2c' :
-      '#fee08b';
+    return value > 1000 ? '#B0E2B4' :
+      value > 500 ? '#C0EBD5' :
+      value > 100 ? '#CFF5F5' :
+      value > 50 ? '#DAEBEF' :
+      '#F8D2DE';
   };
 
 
@@ -25,11 +25,11 @@ const Map = () => {
     const value = feature.properties.jumlah_perusahaan;
     return {
       fillColor: getColor(value),
-      weight: 2,
+      weight: 1,
       opacity: 1,
-      color: 'white',
+      color: '#ec008c',
       dashArray: '3',
-      fillOpacity: 0.7,
+      fillOpacity: 0.9,
     };
   };
 
@@ -45,11 +45,13 @@ const Map = () => {
       center={center}
       zoom={zoom}
       style={{ height: '100%', width: '100%' }}
+      scrollWheelZoom={false}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+
 
       <GeoJSON
         data={IndonesiaData}

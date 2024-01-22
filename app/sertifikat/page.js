@@ -72,9 +72,9 @@ const Home = () => {
   return (
     <>
       <div style={{backgroundImage: 'url(/bla.png)'}}
-        className='fixed h-full w-full top-10 -z-10 bg-center bg-cover bg-repeat opacity-30' />
+        className='fixed h-full w-full top-10 left-0 -z-10 bg-center bg-cover bg-repeat opacity-15' />
 
-      <div className='mx-40 font-roboto mt-24 mb-10 px-4 lg:px-10 3xl:px-40 '>
+      <div className='mx-40 font-roboto'>
         <h1 className='text-2xl pb-4'>Rekapitulasi Sertifikat</h1>
         <div className='w-full h-full'>
           <Table columns={columns} data={data} />

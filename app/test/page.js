@@ -7,7 +7,7 @@ import datas2 from '@/public/data2'
 import DoubleBar from '@/components/DoubleBar'
 import HorizontalStackBar from '@/components/HorizontalStackBar'
 
-const tkdn = () => {
+const test = () => {
   const data1 = [
     { name: 'Jumlah Perusahaan', value: 4382 },
   ]
@@ -50,4 +50,4 @@ const tkdn = () => {
   )
 }
 
-export default tkdn
+export default test
