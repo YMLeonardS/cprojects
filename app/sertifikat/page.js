@@ -66,12 +66,12 @@ const columns = [
     align: 'center',
   },
 ]
+// z
 
-
-const Home = () => {
+function Home() {
   return (
     <>
-      <div style={{backgroundImage: 'url(/bla.png)'}}
+      <div style={{ backgroundImage: 'url(/bla.png)' }}
         className='fixed h-full w-full top-10 left-0 -z-10 bg-center bg-cover bg-repeat opacity-15' />
 
       <div className='mx-40 font-roboto'>
@@ -81,8 +81,8 @@ const Home = () => {
 
         </div>
       </div>
-   </>
+    </>
   );
-};
+}
 
 export default Home;
