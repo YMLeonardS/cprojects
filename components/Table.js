@@ -80,10 +80,10 @@ const Table = ({ columns, data }) => {
       </div>
       <table {...getTableProps()} className="text-xs">
         <thead className='border'>
-          {headerGroups.map((headerGroup) => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map((column) => (
-                <th {...column.getHeaderProps()} 
+          {headerGroups.map((headerGroup, idx) => (
+            <tr {...headerGroup.getHeaderGroupProps()} key={idx}>
+              {headerGroup.headers.map((column, idx) => (
+                <th {...column.getHeaderProps()} key={idx} 
                   className={`border p-2 text-${column.render('align')} bg-[#e3faee] border-slate-300`} 
                 >
                   {column.render('Header')}
@@ -93,12 +93,12 @@ const Table = ({ columns, data }) => {
           ))}
         </thead>
         <tbody {...getTableBodyProps()}>
-          {page.map((row) => {
+          {page.map((row, idx) => {
             prepareRow(row);
             return (
-              <tr {...row.getRowProps()} className='even:bg-slate-50 odd:bg-white'>
-                {row.cells.map((cell) => (
-                  <td {...cell.getCellProps()} 
+              <tr {...row.getRowProps()} key={idx} className='even:bg-slate-50 odd:bg-white'>
+                {row.cells.map((cell, idx) => (
+                  <td {...cell.getCellProps()} key={idx}
                     className={`border py-2 px-4 text-${cell.render('align')}`} 
                     style={{ width: `${cell.render('size')}px` }}
                   >

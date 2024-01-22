@@ -54,6 +54,7 @@ export default function DoubleBar({ datas, column }) {
     
     
     // setSeries(lineSeries.concat(barSeries))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
 
