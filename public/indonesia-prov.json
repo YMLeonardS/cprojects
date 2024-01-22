@@ -204,6 +204,7 @@
         "ID": 2,
         "kode": 52,
         "Propinsi": "NUSATENGGARA BARAT",
+        "jumlah_perusahaan":6,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -662,6 +663,7 @@
         "ID": 4,
         "kode": 74,
         "Propinsi": "SULAWESI TENGGARA",
+        "jumlah_perusahaan":2,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -708,6 +710,7 @@
         "ID": 5,
         "kode": 34,
         "Propinsi": "DAERAH ISTIMEWA YOGYAKARTA",
+        "jumlah_perusahaan":93,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -877,6 +880,7 @@
         "ID": 6,
         "kode": 33,
         "Propinsi": "JAWA TENGAH",
+        "jumlah_perusahaan":319,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -981,6 +985,7 @@
         "ID": 7,
         "kode": 36,
         "Propinsi": "BANTEN",
+        "jumlah_perusahaan":623,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -1260,6 +1265,7 @@
         "ID": 8,
         "kode": 35,
         "Propinsi": "JAWA TIMUR",
+        "jumlah_perusahaan":648,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -1778,6 +1784,7 @@
         "ID": 9,
         "kode": 82,
         "Propinsi": "MALUKU UTARA",
+        "jumlah_perusahaan":32,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -2657,6 +2664,7 @@
         "ID": 10,
         "kode": 81,
         "Propinsi": "MALUKU",
+        "jumlah_perusahaan":1,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -3037,6 +3045,7 @@
         "ID": 13,
         "kode": 73,
         "Propinsi": "SULAWESI SELATAN",
+        "jumlah_perusahaan":30,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -3069,6 +3078,7 @@
         "ID": 14,
         "kode": 31,
         "Propinsi": "DKI JAKARTA",
+        "jumlah_perusahaan":766,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -3196,6 +3206,7 @@
         "ID": 15,
         "kode": 32,
         "Propinsi": "JAWA BARAT",
+        "jumlah_perusahaan":1073,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -4859,6 +4870,7 @@
         "ID": 16,
         "kode": 91,
         "Propinsi": "PAPUA",
+        "jumlah_perusahaan":200,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -5402,6 +5414,7 @@
         "ID": 17,
         "kode": 53,
         "Propinsi": "NUSA TENGGARA TIMUR",
+        "jumlah_perusahaan":1,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -5478,6 +5491,7 @@
         "ID": 18,
         "kode": 51,
         "Propinsi": "BALI",
+        "jumlah_perusahaan":14,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -5943,6 +5957,7 @@
         "ID": 19,
         "kode": 14,
         "Propinsi": "RIAU",
+        "jumlah_perusahaan":54,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -7410,6 +7425,7 @@
         "ID": 76,
         "kode": 21,
         "Propinsi": "KEPULAUAN RIAU",
+        "jumlah_perusahaan":39,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -7523,6 +7539,7 @@
         "ID": 77,
         "kode": 76,
         "Propinsi": "SULAWESI BARAT",
+        "jumlah_perusahaan":100,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -8058,6 +8075,7 @@
         "ID": 20,
         "kode": 72,
         "Propinsi": "SULAWESI TENGAH",
+        "jumlah_perusahaan":2,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -8254,6 +8272,7 @@
         "ID": 22,
         "kode": 71,
         "Propinsi": "SULAWESI UTARA",
+        "jumlah_perusahaan":4,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -10566,6 +10585,7 @@
         "ID": 23,
         "kode": 92,
         "Propinsi": "PAPUA BARAT",
+        "jumlah_perusahaan":2,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -10882,6 +10902,7 @@
         "ID": 24,
         "kode": 12,
         "Propinsi": "SUMATERA UTARA",
+        "jumlah_perusahaan":200,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -11059,6 +11080,7 @@
         "ID": 25,
         "kode": 19,
         "Propinsi": "BANGKA BELITUNG",
+        "jumlah_perusahaan":3,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -11316,6 +11338,7 @@
         "ID": 26,
         "kode": 13,
         "Propinsi": "SUMATERA BARAT",
+        "jumlah_perusahaan":47,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -11554,6 +11577,7 @@
         "ID": 28,
         "kode": 16,
         "Propinsi": "SUMATERA SELATAN",
+        "jumlah_perusahaan":119,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -11715,6 +11739,7 @@
         "ID": 29,
         "kode": 15,
         "Propinsi": "JAMBI",
+        "jumlah_perusahaan":115,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -11869,6 +11894,7 @@
         "ID": 30,
         "kode": 18,
         "Propinsi": "LAMPUNG",
+        "jumlah_perusahaan":22,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -12014,6 +12040,7 @@
         "ID": 31,
         "kode": 17,
         "Propinsi": "BENGKULU",
+        "jumlah_perusahaan":5,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -12242,7 +12269,8 @@
       "properties": {
         "ID": 32,
         "kode": 11,
-        "Propinsi": "DI. ACEH",
+        "Propinsi": "Nanggroe Aceh Darussalam",
+        "jumlah_perusahaan":160,
         "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
@@ -13736,6 +13764,7 @@
         "ID": 12,
         "kode": 61,
         "Propinsi": "KALIMANTAN BARAT",
+        "jumlah_perusahaan":6,
         "SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
       }
     },
@@ -14522,6 +14551,7 @@
         "ID": 27,
         "kode": 62,
         "Propinsi": "KALIMANTAN TENGAH",
+        "jumlah_perusahaan":2,
         "SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
       }
     },
@@ -15138,6 +15168,7 @@
         "ID": 11,
         "kode": 63,
         "Propinsi": "KALIMANTAN SELATAN",
+        "jumlah_perusahaan":10,
         "SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
       }
     },
@@ -17028,6 +17059,7 @@
         "ID": 21,
         "kode": 64,
         "Propinsi": "KALIMANTAN TIMUR",
+        "jumlah_perusahaan":18,
         "SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
       }
     },
@@ -18615,6 +18647,7 @@
         "ID": 33,
         "kode": 65,
         "Propinsi": "KALIMANTAN UTARA",
+        "jumlah_perusahaan":500,
         "SUMBER": "Batas Provinsi Desember 2019 Dukcapil (Skala tidak diketahui)"
       }
     }
