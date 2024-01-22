@@ -13,7 +13,7 @@ export async function GET() {
     });
 
     // Execute a simple query
-    const [rows] = await connection.execute('SELECT * FROM sertifikat_produk');
+    const [rows] = await connection.execute('SELECT * FROM jumlah_perusahaan');
 
     // Close the connection
     await connection.end();
